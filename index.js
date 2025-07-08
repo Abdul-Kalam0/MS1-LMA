@@ -26,6 +26,4 @@ app.post("/api/reading-list/:readingListId", removeBookFromReadingList);
 //user
 app.post("/api/users", addUser);
 
-app.listen(3000, () => {
-  console.log("Server is listening on 3000");
-});
+module.exports = app;
